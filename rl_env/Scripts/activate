@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\Users\RISHI BAKSHI\OneDrive\Desktop\ChefsHatGYM\rl_env"
+VIRTUAL_ENV="D:\Downloads\Chrome Download\fuck\7043SCN_Task\rl_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

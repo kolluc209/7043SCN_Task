@@ -1,0 +1,86 @@
+[
+  {
+    "reward_shaping": "none",
+    "auxiliary_rewards": "none",
+    "total_timesteps": 50000,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "timestamp": "2026-03-02T20:38:22.330009",
+    "experiment_name": "baseline_no_shaping"
+  },
+  {
+    "reward_shaping": "none",
+    "auxiliary_rewards": "multitask",
+    "total_timesteps": 50000,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "timestamp": "2026-03-02T20:40:13.223322",
+    "experiment_name": "baseline_multitask"
+  },
+  {
+    "reward_shaping": "hand_size",
+    "auxiliary_rewards": "none",
+    "total_timesteps": 50000,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "timestamp": "2026-03-02T20:42:01.547610",
+    "experiment_name": "hand_size_shaping"
+  },
+  {
+    "reward_shaping": "hybrid",
+    "auxiliary_rewards": "multitask",
+    "total_timesteps": 50000,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "timestamp": "2026-03-02T20:44:36.329175",
+    "experiment_name": "hybrid_multitask"
+  },
+  {
+    "reward_shaping": "hybrid",
+    "auxiliary_rewards": "trajectory",
+    "total_timesteps": 50000,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "timestamp": "2026-03-02T20:47:08.623866",
+    "experiment_name": "hybrid_trajectory"
+  },
+  {
+    "reward_shaping": "curriculum",
+    "auxiliary_rewards": "multitask",
+    "total_timesteps": 50000,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "timestamp": "2026-03-02T20:50:00.178925",
+    "experiment_name": "curriculum_multitask"
+  },
+  {
+    "reward_shaping": "hand_size",
+    "auxiliary_rewards": "curiosity",
+    "total_timesteps": 50000,
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "n_steps": 2048,
+    "batch_size": 64,
+    "timestamp": "2026-03-02T20:51:58.903148",
+    "experiment_name": "hand_size_curiosity"
+  }
+]

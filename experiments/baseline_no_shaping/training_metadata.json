@@ -1,0 +1,11 @@
+{
+  "reward_shaping": "none",
+  "auxiliary_rewards": "none",
+  "total_timesteps": 50000,
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "n_steps": 2048,
+  "batch_size": 64,
+  "timestamp": "2026-03-02T20:38:22.330009"
+}
